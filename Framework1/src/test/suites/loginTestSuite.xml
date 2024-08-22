@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Login Tests" thread-count="2" parallel="tests" annotation="JDK" verbose="1">
+    <test name="firstSuite">
+        <classes>
+            <class name="tests.login_tests.SuccessfulLoginTest"/>
+        </classes>
+    </test>
+    <test name="secondSuite">
+        <classes>
+            <class name="tests.login_tests.SuccessfulLoginE2E"/>
+        </classes>
+    </test>
+</suite>

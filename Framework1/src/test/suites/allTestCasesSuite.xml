@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="All Tests" thread-count="1" parallel="tests" annotation="JDK" verbose="1">
+
+    <test name="AllTestsSuite">
+        <classes>
+            <class name="tests.login_tests.SuccessfulLoginTest"/>
+            <class name="tests.login_tests.SuccessfulLoginE2E"/>
+            <class name="tests.login_tests.UnsuccessfulLoginTest"/>
+            <class name="tests.product_tests.AddProductTest"/>
+            <class name="tests.product_tests.AddProductsTest"/>
+            <class name="tests.product_tests.RemoveProductTest"/>
+            <class name="tests.product_tests.RemoveProductsTest"/>
+            <class name="tests.checkout_tests.BuyProductTest"/>
+            <class name="tests.checkout_tests.BuyProductsTest"/>
+            <class name="tests.checkout_tests.BuyProductTestE2E"/>
+            <class name="tests.login_tests.LockedOutUserTest"/>
+            <class name="tests.checkout_tests.BuyProductErrorTest"/>
+        </classes>
+    </test>
+</suite>
